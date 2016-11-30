@@ -1,0 +1,30 @@
+{
+  "name": "NGSWeather",
+  "author": "SB Craft",
+  "version": "0.8.0",
+  "keywords": ["pebble-app"],
+  "private": true,
+  "dependencies": {},
+  "pebble": {
+    "displayName": "NGS weather",
+    "uuid": "ebca50b7-caed-46a8-adfe-72edaf21827e",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": [
+      "aplite",
+      "basalt",
+      "chalk",
+      "diorite"
+    ],
+    "watchapp": {
+      "watchface": false
+    },
+    "messageKeys": [
+      "weather",
+      "conditions"
+    ],
+    "resources": {
+      "media": []
+    }
+  }
+}
